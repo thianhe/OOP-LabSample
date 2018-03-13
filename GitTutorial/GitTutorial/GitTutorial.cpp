@@ -4,7 +4,6 @@
 using namespace System;
 bool Guess(int number)
 {
-    return false;
 }
 int main(array<System::String^>^ args)
 {
@@ -12,6 +11,7 @@ int main(array<System::String^>^ args)
 
     do
     {
+        std::cout << "Choose a number between 1 - 100 :";
         std::cin >> guess;
     }
     while (!Guess(guess));
